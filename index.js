@@ -1,4 +1,4 @@
-let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"]
+let myLeads = []
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
@@ -10,7 +10,9 @@ if (leadsFromLocalStorage) {
 }
 
 inputBtn.addEventListener("click", function() {
-    myLeads.push(inputEl.value);
+    myLeads.push(inputEl.value)
+    inputEl.value = ""
+    localStorage.setItem("myLeads", JSON.stringify(myLeads) )
     renderLeads()
 })
 
