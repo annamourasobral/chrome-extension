@@ -11,3 +11,11 @@ This a project in 'Making Websites interactive module' of [Frontend Career Path]
 - localStorage;
 - the JSON object;
 - objects in arrays
+
+## Add this extension to your Chrome!
+1. Download/clone this repo;
+2. Open Chrome and click in your extensions button;
+3. Go to 'manage extensions';
+4. Upload this repo folder;
+5. Pin the extension to quick access;
+6. You're all set up! :)
