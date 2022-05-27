@@ -1,6 +1,11 @@
 # Chrome extension
 This a project in 'Making Websites interactive module' of [Frontend Career Path](https://github.com/annamourasobral/Frontend-Career-Path) from [Scrimba](https://scrimba.com)
 
+</br>
+</br>
+
+![Screenshot at May 27 12-22-05](https://user-images.githubusercontent.com/71239376/170681707-fb3adbc5-4116-47de-879e-017b4f422cbc.png)
+
 ## Here I practiced:
 - const;
 - addEventListener();
